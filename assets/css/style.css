@@ -1,6 +1,6 @@
 header { 
 height: 89px;
-width: 2000px;
+width: 1370px;
 background: #fff;}
  
   
@@ -44,7 +44,8 @@ body {
   background-image: url("https://cdn.pixabay.com/photo/2017/01/18/15/51/paper-1990111_960_720.jpg"); 
    background-repeat: no-repeat;
    background-size: cover;
-   width: 960px;}
+   width: 960px;
+   height: 1500px;}
   
   #aboutme { height: 456px;
   width: 614px;
