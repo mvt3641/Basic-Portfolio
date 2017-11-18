@@ -1,3 +1,6 @@
+html { height: 1500px;
+  width: 1370px;}
+
 header { 
 height: 89px;
 width: 1370px;
@@ -47,7 +50,7 @@ body {
    width: 960px;
    height: 1500px;}
   
-  #aboutme { height: 456px;
+  #aboutme { height: 650px;
   width: 614px;
   margin-top: 40px;
   margin-left: 147px;
@@ -57,17 +60,58 @@ body {
   background-color: #fff;
   }
   
-  h1 {padding-top: 20px;
+  h1.about {padding-top: 20px;
   padding-left: 26px;
   color: #5ba;
+  font-size: 20px;
   font-family: 'Georgia', Times, Times New Roman, serif;
-  border-style: none;
-  border-bottom: 1px solid #ddd;
-  display:inline-block;
+  font-weight: bold;
+  }
+hr.about {width: 550px;}
+
+p.name {font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  padding-left: 5%;}
+textarea.name{ height: 34px;
+width:500px;
+margin-left: 5%;}
+
+img.mepic {float:left;
+margin: 0px 10px 0px 10px;
+padding: 0px;
 }
 
-#mepic {float:left;
-margin: 20px 10px 0px 10px;}
+p.email {font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  padding-left: 5%;}
+textarea.email {height: 34px;
+width:500px;
+margin-left: 5%;}
+
+p.message {font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  padding-left: 5%;}
+textarea.message {height: 200px;
+width: 500px;
+margin-left: 5%;}
+
+button.submit {height: 43px;
+width: 115px;
+margin-left: 5%;
+margin-top: 5%;
+color: #fff;
+background-color: #5ba;
+font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+img{ padding: 5% 5% 5% 10%;}
+
+
+h1.connect {padding-top: 20px;
+  padding-left: 26px;
+  color: #5ba;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Georgia', Times, Times New Roman, serif; }
+  
+  hr.connect {width: 150px;}
   
   #connect {height: 202px;
   width: 272px;
@@ -76,12 +120,12 @@ margin: 20px 10px 0px 10px;}
   border-color: #dddddd;
   background-color: #fff;
   margin-left: 820px;
-  margin-top: -458px;
+  margin-top: -650px;
   }
   
   /*---Contact tabs---*/
   #icon {width: 200px;
-    margin-top: 50px;
+    margin-top: 30px;
     margin-left: 20px;
     padding-right: 50px;}
  
