@@ -11,7 +11,10 @@
     <title>Matthew Thompson - Portfolio</title>
 
     <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
 
     <!-- Custom fonts for this template -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
@@ -536,18 +539,30 @@
                   <!-- Project Details Go Here -->
                   <h2 class="text-uppercase">ASADI</h2>
                   <p class="item-intro text-muted">A-ISR Situational Awareness Database Intelligence</p>
-              <div class="scrshot-box">
-                    <div class="screenshot-cln">
-                    <img class="img-fluid d-block mx-auto" src="img/portfolio/01-full.jpg" alt="">
-                    </div>
-                    <div class= "screenshot-cln">
-                    <img class="img-fluid d-block mx-auto" src="img/portfolio/01-full.jpg" alt="">
-                  </div>
-                  <div class= "screenshot-cln">
-                  <img class="img-fluid d-block mx-auto" src="img/portfolio/01-full.jpg" alt="">
-                </div>
-              </div>
-                  <p>Application reporting real-time operational status on asset telemetry and functional status. The application is user-role dependent including: Operational, Hub, and Client. Technology used: CSS, HTML, Bootstrap, RESTful API,MongoDB , Chart.js, JavaScript, Weather API, JSON, Firebase, Firebase Authentication</p>
+                  <!--Screenshot Slideshow -->
+                  <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img class="d-block w-100" src="img/portfolio/01-dashboard.jpg" alt="">
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="img/portfolio/01-dashboard2.jpg" alt="Second slide">
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-50" src="img/portfolio/01-dashboard3.jpg" alt="Third slide">
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+
+  <p>Application reporting real-time operational status on asset telemetry and functional status. The application is user-role dependent including: Operational, Hub, and Client. Technology used: CSS, HTML, Bootstrap, RESTful API,MongoDB , Chart.js, JavaScript, Weather API, JSON, Firebase, Firebase Authentication</p>
                   <!-- <ul class="list-inline">
                     <li>Date: January 201</li>
                     <li>Client: Threads</li>
@@ -738,6 +753,9 @@
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
 
     <!-- Plugin JavaScript -->
     <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
