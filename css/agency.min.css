@@ -22,7 +22,7 @@ a:hover {
 }
 
 .text-primary {
-  color: #fed136 !important
+  color: steelblue !important
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -66,14 +66,14 @@ section h3.section-subheading {
 }
 
 .btn-primary {
-  background-color: #fed136;
-  border-color: #fed136
+  background-color: steelblue;
+  border-color: steelblue;
 }
 
 .btn-primary:active, .btn-primary:focus, .btn-primary:hover {
-  background-color: #fec810 !important;
-  border-color: #fec810 !important;
-  color: #fff
+  background-color: white !important;
+  border-color: steelblue !important;
+  color: steelblue;
 }
 
 .btn-primary:active, .btn-primary:focus {
@@ -109,17 +109,17 @@ img::-moz-selection {
   text-transform: uppercase;
   color: #fff;
   border: 0;
-  background-color: #fed136;
+  background-color: steelblue;
   font-family: Montserrat, 'Helvetica Neue', Helvetica, Arial, sans-serif
 }
 
 #mainNav .navbar-brand {
-  color: #fed136;
+  color: steelblue;
   font-family: 'Kaushan Script', 'Helvetica Neue', Helvetica, Arial, cursive
 }
 
 #mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-  color: #fec503
+  color: white;
 }
 
 #mainNav .navbar-nav .nav-item .nav-link {
@@ -127,12 +127,12 @@ img::-moz-selection {
   font-weight: 400;
   padding: .75em 0;
   letter-spacing: 1px;
-  color: #fff;
+  color: steelblue;
   font-family: Montserrat, 'Helvetica Neue', Helvetica, Arial, sans-serif
 }
 
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
-  color: #fed136
+  color: dimgrey;
 }
 
 @media (min-width:992px) {
@@ -180,8 +180,9 @@ header.masthead {
 
 header.masthead .intro-text {
   padding-top: 150px;
-  padding-bottom: 100px
-}
+  padding-bottom: 100px;
+
+  }
 
 header.masthead .intro-text .intro-lead-in {
   font-size: 22px;
@@ -246,7 +247,7 @@ header.masthead .intro-text .intro-heading {
   -moz-transition: all ease .5s;
   transition: all ease .5s;
   opacity: 0;
-  background: rgba(254, 209, 54, .9)
+  background: rgba(70,130,180, .7);
 }
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
@@ -682,5 +683,5 @@ ul.social-buttons li a {
 }
 
 ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
-  background-color: #fed136
+  background-color: steelblue;
 }

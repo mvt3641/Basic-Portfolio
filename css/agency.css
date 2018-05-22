@@ -185,6 +185,7 @@ header.masthead {
 header.masthead .intro-text {
   padding-top: 150px;
   padding-bottom: 100px;
+  top: -32px;
 }
 
 header.masthead .intro-text .intro-lead-in {
@@ -704,7 +705,7 @@ ul.social-buttons li a {
 }
 
 ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
-  background-color: #fed136;
+  background-color: steelblue;
 }
 
 #video-background {
@@ -719,7 +720,7 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
   z-index: -1000;
 }
 
-#txtovervideo{
+/* #txtovervideo{
   position: fixed;
   z-index: 2;
-}
+} */
