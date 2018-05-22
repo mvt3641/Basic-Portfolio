@@ -171,6 +171,7 @@ img::-moz-selection {
 
 header.masthead {
   text-align: center;
+  /* background-image: url('../img/header-bg.jpg'); */
   color: white;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -715,5 +716,10 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
   min-height: 100%;
   width: auto;
   height: auto;
-  z-index: -100;
+  z-index: -1000;
+}
+
+#txtovervideo{
+  position: fixed;
+  z-index: 2;
 }
